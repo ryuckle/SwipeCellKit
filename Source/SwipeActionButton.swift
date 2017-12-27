@@ -30,7 +30,7 @@ class SwipeActionButton: UIButton {
     convenience init(action: SwipeAction) {
         self.init(frame: .zero)
 
-        contentHorizontalAlignment = .center
+        contentHorizontalAlignment = .left
         
         tintColor = action.textColor ?? .white
         let highlightedTextColor = action.highlightedTextColor ?? tintColor
